@@ -5,11 +5,9 @@ Its more like windows, a bit better to get into linux coming from windows.
 
 
 # Usage
-[Click here to Download the file](https://codeberg.org/marvin1099/GarudaPlasmaWind/releases/download/v0.1/download-and-set-settings.sh)  
-[Here is a Backup link to the file](https://github.com/marvin1099/GarudaPlasmaWind/releases/download/v0.1/download-and-set-settings.sh)  
-Or got to:  
-[Repo downloads and click download there](https://codeberg.org/marvin1099/GarudaPlasmaWind/releases)  
-[Here the Backup repo downloads also click download there](https://codeberg.org/marvin1099/GarudaPlasmaWind/releases)  
+Click one of the links:  
+[Repo downloads and click on the file download-and-set-settings.sh to download it](https://codeberg.org/marvin1099/GarudaPlasmaWind/releases)  
+[Here the Backup repo downloads also click on the file download-and-set-settings.sh to download it](https://codeberg.org/marvin1099/GarudaPlasmaWind/releases)  
 
 Alternatively you can also use git clone to get the repo.  
 A bit more complex (do this only if you know how to).
