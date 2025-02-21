@@ -46,7 +46,7 @@ plugin=org.kde.plasma.icontasks
 [Containments][31][Applets][24][Configuration][General]
 fill=false
 iconSpacing=2
-launchers=applications:garuda-welcome.desktop,applications:org.kde.konsole.desktop,preferred://browser,preferred://filemanager,applications:org.kde.plasma-systemmonitor.desktop,applications:snapper-tools.desktop,applications:org.manjaro.pamac.manager.desktop,applications:systemsettings.desktop
+launchers=applications:garuda-welcome.desktop,applications:org.kde.konsole.desktop,preferred://browser,preferred://filemanager,applications:org.kde.plasma-systemmonitor.desktop,applications:org.manjaro.pamac.manager.desktop,applications:systemsettings.desktop
 maxStripes=1
 showOnlyCurrentDesktop=false
 showOnlyCurrentScreen=false
@@ -84,8 +84,26 @@ plugin=org.kde.plasma.systemtray
 PreloadWeight=55
 SystrayContainmentId=40
 
+[Containments][31][Applets][56]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][31][Applets][56][Configuration]
+PreloadWeight=55
+popupHeight=450
+popupWidth=524
+
+[Containments][31][Applets][56][Configuration][Appearance]
+customDateFormat=dd.MM.yyyy
+dateFormat=custom
+showSeconds=Always
+
+[Containments][31][Applets][56][Configuration][ConfigDialog]
+DialogHeight=539
+DialogWidth=720
+
 [Containments][31][General]
-AppletOrder=32;36;24;38;39
+AppletOrder=32;36;24;38;39;56
 
 [Containments][40]
 activityId=

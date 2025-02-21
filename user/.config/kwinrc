@@ -17,9 +17,6 @@ magiclampEnabled=true
 squashEnabled=false
 wobblywindowsEnabled=true
 
-[TabBox]
-LayoutName=coverswitch
-
 [Tiling]
 padding=4
 

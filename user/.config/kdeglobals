@@ -102,6 +102,26 @@ toolBarFont=Fira Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 LookAndFeelPackage=Dr460nized
 SingleClick=true
 
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=134
+View Style=DetailTree
+
 [KScreen]
 ScaleFactor=1.5
 ScreenScaleFactors=HDMI-0=1.5;DP-0=1.5;DP-1=1.5;DP-2=1.5;DP-3=1.5;DP-4=1.5;DP-5=1.5;

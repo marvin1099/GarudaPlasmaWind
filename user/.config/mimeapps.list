@@ -1,3 +1,7 @@
+[Added Associations]
+application/xml=org.kde.kate.desktop;firedragon.desktop;brave-browser.desktop;librewolf.desktop;rustdesk.desktop;org.kde.kwrite.desktop;libreoffice-writer.desktop;vscodium.desktop;vscodium-wayland.desktop;micro.desktop;okularApplication_txt.desktop;
+
 [Default Applications]
+application/xml=org.kde.kate.desktop;
 x-scheme-handler/http=firedragon.desktop;
 x-scheme-handler/https=firedragon.desktop;
