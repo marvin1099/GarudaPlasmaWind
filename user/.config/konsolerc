@@ -12,7 +12,6 @@ ShowMenuBarByDefault=false
 MenuBar=Disabled
 RestorePositionForNextInstance=true
 StatusBar=Disabled
-ToolBarsMovable=Disabled
 
 [UiSettings]
 ColorScheme=

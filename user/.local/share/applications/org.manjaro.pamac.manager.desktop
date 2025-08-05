@@ -1,16 +1,15 @@
-[Desktop Action updates]
-Exec=command -v pamac-manager >/dev/null || konsole -e bash -c "paru -S --needed pamac" && pamac-manager --updates
-Name=Software Update
-
 [Desktop Entry]
 Actions=updates;
 Categories=GNOME;GTK;System;PackageManager;Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
 Comment=Add or remove software installed on the system
+DBusActivatable=true
 Exec=command -v pamac-manager >/dev/null || konsole -e bash -c "paru -S --needed pamac" && pamac-manager %U
 Icon=system-software-install
 MimeType=x-scheme-handler/appstream;x-scheme-handler/snap;application/vnd.flatpak;application/vnd.flatpak.repo;application/vnd.flatpak.ref;application/vnd.snap;
 Name=Add/Remove Software
+NoDisplay=false
 Path=
+PrefersNonDefaultGPU=false
 StartupNotify=true
 StartupWMClass=pamac-manager
 Terminal=false
@@ -20,3 +19,7 @@ X-GNOME-UsesNotifications=true
 X-KDE-SubstituteUID=false
 X-KDE-Username=
 X-Purism-FormFactor=Workstation;Mobile;
+
+[Desktop Action updates]
+Exec=command -v pamac-manager >/dev/null || konsole -e bash -c "paru -S --needed pamac" && pamac-manager --updates
+Name=Software Update

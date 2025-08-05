@@ -2,27 +2,33 @@
     {
         "data": [
             {
+                "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": true,
                 "autoRotation": "InTabletMode",
                 "brightness": 1,
+                "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "HDMI-A-1",
-                "edidHash": "9edf9670a8f75a50b1095540b35e06b7",
+                "detectedDdcCi": false,
+                "edidHash": "a05bbbfc24bf8ad837aa51494bf6cc3e",
                 "edidIdentifier": "SAM 3148 810375238 17 2017 0",
+                "edrPolicy": "always",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
+                "maxBitsPerColor": 0,
                 "mode": {
-                    "height": 2160,
-                    "refreshRate": 30000,
-                    "width": 3840
+                    "height": 1080,
+                    "refreshRate": 60000,
+                    "width": 1920
                 },
                 "overscan": 0,
                 "rgbRange": "Automatic",
-                "scale": 1.75,
+                "scale": 1,
                 "sdrBrightness": 200,
                 "sdrGamutWideness": 0,
                 "transform": "Normal",
-                "vrrPolicy": "Automatic",
+                "uuid": "98d8b4c5-b4c1-435f-8da1-bfd6ef4adbc8",
+                "vrrPolicy": "Never",
                 "wideColorGamut": false
             }
         ],
@@ -40,7 +46,8 @@
                             "x": 0,
                             "y": 0
                         },
-                        "priority": 0
+                        "priority": 0,
+                        "replicationSource": ""
                     }
                 ]
             }

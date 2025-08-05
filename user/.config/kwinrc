@@ -1,10 +1,19 @@
 [Desktops]
-Id_1=ef1f9a75-ac2f-4851-9d42-79861cb8b881
+Id_1=626ae52d-769d-4cf5-b513-80bdc1572940
 Number=1
 Rows=1
 
-[Effect-blur]
+[Effect-blurplus]
+BlurDecorations=true
+BlurMatching=false
+BlurNonMatching=true
+BottomCornerRadius=20
+DockCornerRadius=20
+MenuCornerRadius=20
 NoiseStrength=0
+PaintAsTranslucent=true
+TopCornerRadius=20
+WindowClasses=xwaylandvideobridge
 
 [Effect-wobblywindows]
 Drag=85
@@ -12,28 +21,44 @@ Stiffness=10
 WobblynessLevel=1
 
 [Plugins]
-blurEnabled=true
+blurEnabled=false
+coverswitchEnabled=true
+desktopchangeosdEnabled=true
+fadeEnabled=true
+flipswitchEnabled=true
+forceblurEnabled=true
 magiclampEnabled=true
+scaleEnabled=false
 squashEnabled=false
 wobblywindowsEnabled=true
+
+[Round-Corners]
+ActiveOutlineAlpha=255
+ActiveOutlineUseCustom=false
+ActiveOutlineUsePalette=true
+InactiveCornerRadius=20
+InactiveOutlineAlpha=255
+InactiveOutlineColor=29,153,243
+InactiveOutlineThickness=3
+InactiveSecondOutlineThickness=0.25
+OutlineThickness=3
+SecondOutlineThickness=0.25
+Size=20
+
+[Script-desktopchangeosd]
+PopupHideDelay=2000
 
 [Tiling]
 padding=4
 
-[Tiling][13ae5f53-6418-54a6-bff9-a547c79a4063]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
-
-[Tiling][ac924bd2-2f0e-537e-9f90-f4f4395d355c]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
-
-[Tiling][bcf51446-c018-5e7a-af54-264f68f67e9a]
+[Tiling][626ae52d-769d-4cf5-b513-80bdc1572940][98d8b4c5-b4c1-435f-8da1-bfd6ef4adbc8]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
 BorderlessMaximizedWindows=false
 
 [Xwayland]
-Scale=1.75
+Scale=1
 
 [org.kde.kdecoration2]
 BorderSizeAuto=false
