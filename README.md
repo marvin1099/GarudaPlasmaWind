@@ -5,7 +5,7 @@ Makes Plasma feel a bit more like Windows to ease the transition.
 
 Jump to | [Fast setup](#fast-setup) | [Alternative Fast setup](#alternative-fast-setup) | [Manual setup](#manual-setup) | [After Manual with cli](#cli-method) | [After Manual with gui](#gui-method)
 ## Fast setup
-First Open the terminal or the console then:  
+First Open the terminal or the console then run:
  
 Quick one‑line download-and-run (recommended if you trust this repo):
 - curl:
@@ -16,6 +16,8 @@ bash -c "$(curl -fsSL https://codeberg.org/marvin1099/GarudaPlasmaWind/raw/branc
 ### Log out and log back in to activate the settings.
 
 ## Alternative Fast setup
+
+First Open the terminal or the console then run:  
 
 Quick one‑liner with review (this lets you check the script before running and then use y/N):
 - curl:
@@ -31,19 +33,24 @@ bash -c 'curl -fsSL https://codeberg.org/marvin1099/GarudaPlasmaWind/raw/branch/
 - [Download from GitHub (backup repo) releases](https://github.com/marvin1099/GarudaPlasmaWind/releases)
 
 ### Cli method
-2. Inspect the script:
+2. Then open the terminal or the console and run the following,  
+   or go to [GUI section if you dont like the teminal](#gui-method)
+
+3. Inspect the script:
 ```
 less ~/Downloads/download-and-set-settings.sh
 ```
-3. Make it executable (optional):
+4. Make it executable (optional):
 ```
 chmod +x ~/Downloads/download-and-set-settings.sh
 ```
-4. Run it:
+5. Run it:
 ```
 bash ~/Downloads/download-and-set-settings.sh
 ```
 
+### Log out and log back in to activate the settings.
+---
 ### GUI method
 2. Right-click the downloaded file → Properties → Permissions.
 3. Enable “Is executable” (file execution).
