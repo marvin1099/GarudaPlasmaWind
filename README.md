@@ -5,10 +5,9 @@ Makes Plasma feel a bit more like Windows to ease the transition.
 
 Jump to | [Fast setup](#fast-setup) | [Alternative Fast setup](#alternative-fast-setup) | [Manual setup](#manual-setup) | [After Manual with cli](#cli-method) | [After Manual with gui](#gui-method)
 ## Fast setup
-First Open the terminal or the console then run:
- 
+First Open the terminal or the console.   
 Quick one‑line download-and-run (recommended if you trust this repo):
-- curl:
+- run the command:
 ```
 bash -c "$(curl -fsSL https://codeberg.org/marvin1099/GarudaPlasmaWind/raw/branch/main/download-and-set-settings.sh)"
 ```
@@ -17,10 +16,9 @@ bash -c "$(curl -fsSL https://codeberg.org/marvin1099/GarudaPlasmaWind/raw/branc
 
 ## Alternative Fast setup
 
-First Open the terminal or the console then run:  
-
+First Open the terminal or the console.  
 Quick one‑liner with review (this lets you check the script before running and then use y/N):
-- curl:
+- run the command:
 ```
 bash -c 'curl -fsSL https://codeberg.org/marvin1099/GarudaPlasmaWind/raw/branch/main/download-and-set-settings.sh -o /tmp/download-and-set-settings.sh && less /tmp/download-and-set-settings.sh && read -p "Run the script? (y/N) " ans && [ "$ans" = "y" ] && bash /tmp/download-and-set-settings.sh'
 ```
@@ -36,7 +34,7 @@ bash -c 'curl -fsSL https://codeberg.org/marvin1099/GarudaPlasmaWind/raw/branch/
 2. Then open the terminal or the console and run the following,  
    or go to [GUI section if you dont like the teminal](#gui-method)
 
-3. Inspect the script:
+3. Inspect the script with commmand:
 ```
 less ~/Downloads/download-and-set-settings.sh
 ```
