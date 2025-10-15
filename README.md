@@ -17,7 +17,7 @@ bash -c "$(curl -fsSL https://codeberg.org/marvin1099/GarudaPlasmaWind/raw/branc
 Quick one‑liner with review (this lets you check the script before running and then use y/N):
 - curl:
 ```
-curl -fsSL https://codeberg.org/marvin1099/GarudaPlasmaWind/raw/branch/main/download-and-set-settings.sh -o /tmp/download-and-set-settings.sh && less /tmp/download-and-set-settings.sh && read -p "Run the script? (y/N) " ans && [ "$ans" = "y" ] && bash /tmp/download-and-set-settings.sh
+bash -c 'curl -fsSL https://codeberg.org/marvin1099/GarudaPlasmaWind/raw/branch/main/download-and-set-settings.sh -o /tmp/download-and-set-settings.sh && less /tmp/download-and-set-settings.sh && read -p "Run the script? (y/N) " ans && [ "$ans" = "y" ] && bash /tmp/download-and-set-settings.sh'
 ```
 
 ### Log out and log back in to activate the settings.
