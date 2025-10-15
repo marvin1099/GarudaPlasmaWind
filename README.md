@@ -3,6 +3,7 @@
 My default setup for new users on KDE Plasma (mainly for Garuda).  
 Makes Plasma feel a bit more like Windows to ease the transition.
 
+Jump to | [Fast setup](#fast-setup) | [Alternative Fast setup](#alternative-fast-setup) | [Manual setup](#manual-setup) | [After Manual with cli](#cli-method) | [After Manual with gui](#gui-method)
 ## Fast setup
 First Open the terminal or the console then:  
  
@@ -13,6 +14,8 @@ bash -c "$(curl -fsSL https://codeberg.org/marvin1099/GarudaPlasmaWind/raw/branc
 ```
 
 ### Log out and log back in to activate the settings.
+
+## Alternative Fast setup
 
 Quick one‑liner with review (this lets you check the script before running and then use y/N):
 - curl:
